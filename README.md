@@ -17,3 +17,7 @@
 - git config --global user.name []
 - git config --global --unset {}
 - git config --global --edit
+
+## Public Key
+- ssh-keygen -t rsa -b 4096 -c "email"
+- ssh -T git@github.com
