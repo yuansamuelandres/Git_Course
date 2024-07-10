@@ -10,6 +10,9 @@
 - git remote -v
 - git push remoteName branchName
 - git pull remoteName
+- git init
+- git remote add origin git@github.com:...
+- git push -u remoteName branchName
 
 ## Git Configurations
 - git config -l
@@ -19,5 +22,5 @@
 - git config --global --edit
 
 ## Public Key
-- ssh-keygen -t rsa -b 4096 -c "email"
+- ssh-keygen -t rsa -b 4096 -C "email"
 - ssh -T git@github.com
