@@ -9,4 +9,11 @@
 - git branch
 - git remote -v
 - git push remoteName branchName
-- git pull remoteName 
+- git pull remoteName
+
+## Git Configurations
+- git config -l
+- git help  config
+- git config --global user.name []
+- git config --global --unset {}
+- git config --global --edit
