@@ -34,3 +34,16 @@
 - git branch -D branchName
 - git branch -b newName
 - git merge brancName
+
+## Stashing
+- git stash
+- git stash pop
+- git stash apply
+- git stash list
+- git stash save "message"
+- git stash pop stash@{nember}
+- git stash drop
+- git stash drop stash@{number}
+- git stash show
+- git stash show stash@{number}
+- git stash clear
