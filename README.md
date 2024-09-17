@@ -47,3 +47,8 @@
 - git stash show
 - git stash show stash@{number}
 - git stash clear
+
+## Restoring & Cleaning
+- git restore --staged fileName
+- git clean -n
+- git clean -f
