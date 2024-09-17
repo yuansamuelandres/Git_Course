@@ -25,3 +25,12 @@
 ## Public Key
 - ssh-keygen -t rsa -b 4096 -C "email"
 - ssh -T git@github.com
+
+## Branching & Merging
+- git branch branchName
+- git checkout branchName
+- git checkout -b branchName
+- git branch -d branchName
+- git branch -D branchName
+- git branch -b newName
+- git merge brancName
