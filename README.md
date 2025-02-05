@@ -13,6 +13,8 @@
 - git init
 - git remote add origin git@github.com:...
 - git branch -M branchName
+- git fetch origin
+- git pull origin main
 - git push -u remoteName branchName
 
 ## Git Configurations
